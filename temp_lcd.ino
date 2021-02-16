@@ -95,4 +95,5 @@ void loop() {
   lcd.print(temp);
   delay(1500);
   lcd.clear();
+  lcd.setCursor(0,0);
 }
